@@ -5,7 +5,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  box-sizing: border-box
+  /* box-sizing: border-box */
 }
 
 h1, h3, h5, h6 {
@@ -29,7 +29,8 @@ ul, ol {
 h2 {
   font-family: "Montserrat";
   font-weight: 900;
-  font-size: 40px;
+  font-size: 5rem;
+  color: #eae509;
 }
 
 hr {
@@ -45,6 +46,7 @@ h4 {
   font-family: "Montserrat";
   font-weight: 900;
   font-weight: normal;
+  font-size: 2.5rem;
 }
 
 table {
@@ -56,11 +58,12 @@ table {
   text-align: left;
 }
 
-th{
+th {
   text-align: left;
 }
-.ml{
- font-size:20px;
+
+.ml {
+  font-size: 20px;
 }
 
 .pret {
@@ -73,8 +76,104 @@ th{
   margin-right: auto;
 }
 
+.test {
+  position: relative;
+}
+
+.img-s {
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0; */
+}
+
+.img-s1 {
+  height: 370px;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0; */
+}
+
+.pret {
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  z-index: 2;
+  right: 30px;
+  bottom: 80px;
+}
+
+.pret-c {
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  z-index: 2;
+  right: 30px;
+  bottom: 25%;
+}
+
+.pret-cofe {
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  z-index: 2;
+  left: 40px;
+  bottom: 33%;
+}
+
+.pret-cofe2 {
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  z-index: 2;
+  right: 13%;
+  bottom: 35%;
+}
+
+.pret-cold {
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  z-index: 2;
+  left: 10%;
+  bottom: 20%;
+}
+
+.align {
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.denumire {
+  position: relative;
+  bottom: 25px;
+}
+
+.denumire-crepe {
+  position: relative;
+  bottom: 5%;
+}
+
+.premium {
+  height: 600px;
+  margin: 10% 0;
+}
+
 .container-fluid {
-  padding: 3%;
+  /* padding: 3%; */
   margin: auto;
   text-align: center;
 }
@@ -122,6 +221,7 @@ th{
   margin-top: 7rem;
   padding-left: 15%;
   padding-right: 15%;
+  padding-bottom: 5%;
 }
 
 .links {
@@ -135,7 +235,8 @@ th{
   font-size: 17px;
   color: white;
 }
-.mid{
+
+.mid {
   margin-left: auto;
   margin-right: auto;
 }
@@ -154,14 +255,9 @@ a, a:hover, a:active, a:visited {
     font-size: 5rem;
   }
 
-  h2 {
+  /* h2 {
     font-size: 4rem;
-  }
-
-  h4 {
-    font-size: 2.5rem;
-  }
-
+  } */
   table {
     font-size: 30px;
   }
